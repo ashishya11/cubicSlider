@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Slider</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel='stylesheet' href='css/font.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bacgroundImage">
+  <div class="container-fluid">
+    <!-- <div class="bannerImg"></div> -->
+    <div class="row">
+      <div class="col-lg-2 col-md-3 col-sm-3">
+        <a href="#">
+          <img class="logo" src="https://techbrise.com/wp-content/themes/tb-theme/logo-dark.png">
+        </a>
+        <div class="afterlogo">
+          <nav class="navigation visible" style="visibility: visible;">
+            <ul>
+              <li data-Id="0">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title One</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="1">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Two</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="2">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Three</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="3">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Four</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="4">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Five</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="5">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Six</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="6">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Seven</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="7">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Eight</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <li data-Id="8">
+                <div class="imgSection">
+                  <img class="profileImage" src="./assets/images/profile.png" alt="...">
+                </div>
+                <div class="dataSectionHead">
+                  <a href="#">Video Title Nine</a>
+                  <div>sub Title</div>
+                </div>
+              </li>
+              <!-- <li data-Id="5">
+                <a href="#">About</a>
+              </li> -->
+            </ul>
+            <!-- <div class="socials">
+              <a href="#" target="_blank">
+                <img class="instagram" src="https://laprodentreprise.com/assets/images/instagram.svg">
+              </a>
+              <a href="#" target="_blank">
+                <img class="facebook" src="https://laprodentreprise.com/assets/images/facebook.svg">
+              </a>
+            </div> -->
+          </nav>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-8">
+        <div class="slider3d first">
+          <div class="slider3d__wrapper">
+            <div class="slider3d__inner">
+              <div class="slider3d__rotater">
+                <div data-Id="0" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title One</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/burning-fire-fireplace-2691.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title One</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/video1.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="1" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Two</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Two</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/video2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="2" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Three</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Three</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/video3.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="3" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Four</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Four</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Video Title Four</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/video2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="4" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Five</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Five</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Video Title Five</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/video3.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="5" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Six</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Six</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/1.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="6" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Seven</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Seven</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="7" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Eight</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Eight</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/3.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div data-Id="8" class="slider3d__item">
+                  <div class="detail">
+                    <div class="detaileTitle">
+                      <h1>Video Title Nine</h1>
+                      <h2><strong>Post production sonore</strong></h2>
+                    </div>
+                  </div>
+                  <div class="itemTarget">
+                    <div class="svg">
+                      <svg width="80" height="80" class="play-icon" viewBox="0 0 100 100">
+                        <rect x="4" y="4" width="92" height="92" class="box"></rect>
+                        <polygon points="30,30 70,50 30,70" class="but play"></polygon>
+                      </svg>
+                    </div>
+                    <img src="http://staging.techbrise.com/static/assets/images/slider_1.jpg">
+                    <div class="details">
+                      <div class="detaileTitle">
+                        <h1>Video Title Nine</h1>
+                      </div>
+                      <div class="detailsCredits">
+                        <h2><strong>Post production sonore</strong></h2>
+                        <p>all listed according to requirement.</p>
+                        <h2><strong>Production video</strong></h2>
+                        <p>Testing Case</p>
+                        <h2><strong>Musique</strong></h2>
+                        <p>About</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <video class="d-none target" width="100%" height="100%" id="videoPlayer" controls="controls">
+                    <!-- MP4 Video -->
+                    <source src="assets/videos/5.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <!-- <div class="arrow">
+                  <img class="arrowImage" src="https://laprodentreprise.com/assets/images/arrow.svg">
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+
+  <script src='js/jquery.min.js'></script>
+  <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+  <script src="js/index.js"></script>
+  <div class="row" id="footer"></div>
+</body>
+
+</html>
